@@ -4,27 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ff35104-7819-4eea-b678-8e42a97102e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CourseDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/TeacherDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idao/iCourseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idao/iTeacherDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    <list default="true" id="1ff35104-7819-4eea-b678-8e42a97102e7" name="Changes" comment="terminao">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CourseMaterialDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/idao/iCourseMaterialDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/CourseMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Course.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +68,16 @@
       <workItem from="1667382506918" duration="37000" />
       <workItem from="1667465535029" duration="2323000" />
       <workItem from="1667476950914" duration="67000" />
-      <workItem from="1667548844054" duration="2750000" />
+      <workItem from="1667548844054" duration="5872000" />
     </task>
+    <task id="LOCAL-00001" summary="terminao">
+      <created>1667551812601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667551812601</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="terminao" />
+    <option name="LAST_COMMIT_MESSAGE" value="terminao" />
   </component>
 </project>

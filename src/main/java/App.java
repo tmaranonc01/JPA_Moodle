@@ -1,6 +1,8 @@
 import dao.CourseDaoImpl;
+import dao.CourseMaterialDaoImpl;
 import dao.TeacherDaoImpl;
 import models.Course;
+import models.CourseMaterial;
 import models.Teacher;
 
 public class App {
@@ -15,11 +17,17 @@ public class App {
         //tdi.delete(t);
 
         CourseDaoImpl cdi = new CourseDaoImpl();
-        //System.out.println(cdi.find(2L));
+        //System.out.println(cdi.find(5L));
         //System.out.println(cdi.create(new Course(new TeacherDaoImpl().find(2L))));
         //Course c = new Course();
         //c = cdi.find(2L);
         //System.out.println(cdi.update(c));
+        //System.out.println(cdi.find(5L));
+
+        CourseMaterialDaoImpl cmdi = new CourseMaterialDaoImpl();
+        //System.out.println(cmdi.find(1L));
+        //cmdi.create(new CourseMaterial(null,"si",cdi.find(5L)));
+        //cmdi.delete(cmdi.find(1L));
 
 
 

@@ -21,6 +21,9 @@ public class Course {
     @JoinColumn(name = "teacher_id", referencedColumnName = "id")
     private Teacher teacher;
 
+    @OneToOne(mappedBy = "course", fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
+    private CourseMaterial material;
+
     public Course(Teacher teacher) {
         this.teacher = teacher;
     }
