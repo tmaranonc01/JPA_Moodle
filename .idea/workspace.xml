@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ff35104-7819-4eea-b678-8e42a97102e7" name="Changes" comment="terminao">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CourseMaterialDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/idao/iCourseMaterialDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/CourseMaterial.java" afterDir="false" />
+    <list default="true" id="1ff35104-7819-4eea-b678-8e42a97102e7" name="Changes" comment="ahora si terminao">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/idao/iStudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/CourseDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/CourseDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/idao/iCourseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/idao/iCourseDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Course.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +30,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/models/Course.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/models/Student.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,6 +62,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dao" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +80,13 @@
       <workItem from="1667382506918" duration="37000" />
       <workItem from="1667465535029" duration="2323000" />
       <workItem from="1667476950914" duration="67000" />
-      <workItem from="1667548844054" duration="5872000" />
+      <workItem from="1667548844054" duration="5924000" />
+      <workItem from="1667804814480" duration="2609000" />
+      <workItem from="1667807795801" duration="19000" />
+      <workItem from="1667897782170" duration="52000" />
+      <workItem from="1667897852500" duration="3011000" />
+      <workItem from="1667987173538" duration="52000" />
+      <workItem from="1668070735412" duration="2843000" />
     </task>
     <task id="LOCAL-00001" summary="terminao">
       <created>1667551812601</created>
@@ -77,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667551812601</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ahora si terminao">
+      <created>1667554978077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667554978077</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="terminao" />
-    <option name="LAST_COMMIT_MESSAGE" value="terminao" />
+    <MESSAGE value="ahora si terminao" />
+    <option name="LAST_COMMIT_MESSAGE" value="ahora si terminao" />
   </component>
 </project>
